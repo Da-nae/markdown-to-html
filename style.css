@@ -1,0 +1,97 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: pink;
+    font-size: 7ch;
+    padding: 20px;
+}
+
+h3, h4, h5 {
+    color: darkred;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: darkred;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+
+.quote {
+    color: grey;
+    font-style: italic;
+    font-size: 2ch;
+    padding: 40px;
+}
+
+img {
+    width: 300px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+p {
+    padding: 20px;
+    text-align: justify;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 20px;
+    color: darkred;
+}
+
+table, th, td {
+    border-style: double;
+    border-color: darkred;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+tr:hover {background-color: pink;}
+
+#firstpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.ul2 {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: darkred;
+    padding: 20px
+}
+
+a:hover{
+    color:pink;
+}
